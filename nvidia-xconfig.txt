@@ -1,0 +1,11 @@
+bash-5.1# nvidia-xconfig --query-gpu-info
+Number of GPUs: 1
+
+GPU #0:
+  Name      : Tesla T4
+  UUID      : GPU-b4e59f3e-8288-0adb-a93b-c9179a591b22
+  PCI BusID : PCI:0:5:0
+
+  Number of Display Devices: 0
+
+bash-5.1#

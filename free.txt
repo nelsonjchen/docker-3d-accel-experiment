@@ -1,0 +1,6 @@
+free
+
+bash-5.1# free -h
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       1.1Gi       314Mi        53Mi        14Gi        14Gi
+Swap:             0B          0B          0B

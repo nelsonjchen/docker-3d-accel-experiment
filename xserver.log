@@ -1,0 +1,97 @@
+[  4709.968] 
+X.Org X Server 1.21.1.4
+X Protocol Version 11, Revision 0
+[  4709.968] Current Operating System: Linux 215ae417454e 5.15.90.1-microsoft-standard-WSL2 #1 SMP Fri Jan 27 02:56:13 UTC 2023 x86_64
+[  4709.968] Kernel command line: initrd=\initrd.img WSL_ROOT_INIT=1 panic=-1 nr_cpus=16 bonding.max_bonds=0 dummy.numdummies=0 fb_tunnels=none swiotlb=force console=hvc0 debug pty.legacy_count=0
+[  4709.968] xorg-server 2:21.1.4-2ubuntu1.7~22.04.1 (For technical support please see http://www.ubuntu.com/support) 
+[  4709.968] Current version of pixman: 0.40.0
+[  4709.968] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[  4709.968] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[  4709.968] (++) Log file: "./xserver.log", Time: Sat Sep 16 22:41:23 2023
+[  4709.968] (==) Using config file: "/etc/X11/xorg.conf"
+[  4709.969] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[  4709.969] (==) No Layout section.  Using the first Screen section.
+[  4709.969] (==) No screen section available. Using defaults.
+[  4709.969] (**) |-->Screen "Default Screen Section" (0)
+[  4709.969] (**) |   |-->Monitor "<default monitor>"
+[  4709.969] (==) No device specified for screen "Default Screen Section".
+	Using the first device section listed.
+[  4709.969] (**) |   |-->Device "Device0"
+[  4709.969] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[  4709.969] (==) Automatically adding devices
+[  4709.969] (==) Automatically enabling devices
+[  4709.969] (==) Automatically adding GPU devices
+[  4709.969] (==) Automatically binding GPU devices
+[  4709.969] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[  4709.969] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[  4709.969] 	Entry deleted from font path.
+[  4709.969] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[  4709.969] 	Entry deleted from font path.
+[  4709.969] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[  4709.969] 	Entry deleted from font path.
+[  4709.969] (WW) The directory "/usr/share/fonts/X11/Type1" does not exist.
+[  4709.969] 	Entry deleted from font path.
+[  4709.969] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[  4709.969] 	Entry deleted from font path.
+[  4709.969] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[  4709.969] 	Entry deleted from font path.
+[  4709.969] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	built-ins
+[  4709.969] (**) ModulePath set to "/usr/lib/xorg/modules,/usr/local/nvidia"
+[  4709.969] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[  4709.969] (II) Loader magic: 0x55cc94a08020
+[  4709.969] (II) Module ABI versions:
+[  4709.969] 	X.Org ANSI C Emulation: 0.4
+[  4709.969] 	X.Org Video Driver: 25.2
+[  4709.969] 	X.Org XInput driver : 24.4
+[  4709.969] 	X.Org Server Extension : 10.0
+[  4709.969] (EE) dbus-core: error connecting to system bus: org.freedesktop.DBus.Error.FileNotFound (Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory)
+[  4709.969] (II) xfree86: Adding drm device (/dev/dri/card0)
+[  4709.969] (II) Platform probe for /sys/devices/platform/vgem/drm/card0
+[  4709.970] (--) PCI:*(0@39293:0:0) 1414:008e:0000:0000 rev 0
+[  4709.970] (II) LoadModule: "glx"
+[  4709.970] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[  4709.971] (II) Module glx: vendor="X.Org Foundation"
+[  4709.971] 	compiled for 1.21.1.4, module version = 1.0.0
+[  4709.971] 	ABI class: X.Org Server Extension, version 10.0
+[  4709.971] (II) LoadModule: "nvidia"
+[  4709.971] (WW) Warning, couldn't open module nvidia
+[  4709.971] (EE) Failed to load module "nvidia" (module does not exist, 0)
+[  4709.971] (==) Matched modesetting as autoconfigured driver 0
+[  4709.971] (==) Matched fbdev as autoconfigured driver 1
+[  4709.971] (==) Matched vesa as autoconfigured driver 2
+[  4709.971] (==) Assigned the driver to the xf86ConfigLayout
+[  4709.971] (II) LoadModule: "modesetting"
+[  4709.971] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[  4709.971] (II) Module modesetting: vendor="X.Org Foundation"
+[  4709.971] 	compiled for 1.21.1.4, module version = 1.21.1
+[  4709.971] 	Module class: X.Org Video Driver
+[  4709.971] 	ABI class: X.Org Video Driver, version 25.2
+[  4709.971] (II) LoadModule: "fbdev"
+[  4709.971] (WW) Warning, couldn't open module fbdev
+[  4709.971] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[  4709.971] (II) LoadModule: "vesa"
+[  4709.971] (WW) Warning, couldn't open module vesa
+[  4709.971] (EE) Failed to load module "vesa" (module does not exist, 0)
+[  4709.971] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[  4709.971] (WW) Falling back to old probe method for modesetting
+[  4709.971] (EE) open /dev/dri/card0: No such file or directory
+[  4709.971] (WW) Falling back to old probe method for modesetting
+[  4709.971] (EE) open /dev/dri/card0: No such file or directory
+[  4709.971] (EE) No devices detected.
+[  4709.971] (EE) 
+Fatal server error:
+[  4709.971] (EE) no screens found(EE) 
+[  4709.971] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[  4709.971] (EE) Please also check the log file at "./xserver.log" for additional information.
+[  4709.971] (EE) 
+[  4709.971] (EE) Server terminated with error (1). Closing log file.
